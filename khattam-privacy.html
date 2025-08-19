@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Khattam — Privacy Policy</title>
+    <style>
+      body {
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica,
+          Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        background: #0b1220;
+        color: #e8eefc;
+      }
+      .wrap {
+        max-width: 880px;
+        margin: 0 auto;
+        padding: 32px 20px 60px;
+      }
+      header {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        padding: 8px 0 24px;
+        border-bottom: 1px solid #24304a;
+      }
+      header img {
+        width: 56px;
+        height: 56px;
+        border-radius: 14px;
+        object-fit: cover;
+        background: #1a2336;
+      }
+      h1 {
+        font-size: 28px;
+        margin: 0;
+      }
+      h2 {
+        font-size: 20px;
+        margin-top: 28px;
+      }
+      .card {
+        background: #121b2e;
+        border: 1px solid #24304a;
+        border-radius: 16px;
+        padding: 18px 20px;
+        margin: 18px 0;
+      }
+      a {
+        color: #8ab4ff;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      code {
+        background: #0c1426;
+        padding: 2px 6px;
+        border-radius: 6px;
+      }
+      ul {
+        margin: 8px 0 8px 18px;
+      }
+      .muted {
+        color: #9bb0d4;
+      }
+      footer {
+        margin-top: 40px;
+        font-size: 12px;
+        color: #9bb0d4;
+      }
+      .grid {
+        display: grid;
+        gap: 14px;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      }
+      .badge {
+        display: inline-block;
+        font-size: 12px;
+        padding: 3px 8px;
+        border-radius: 999px;
+        border: 1px solid #2a3a5e;
+        color: #a8c1ff;
+      }
+      .toc a {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <img
+          img src="./assets/images/logo-icon.png" alt="Khattam logo"
+        />
+        <div>
+          <h1>Khattam — Privacy Policy</h1>
+        </div>
+      </header>
+
+      <section class="card toc">
+        <h2>Summary</h2>
+        <p>
+          No data is collected in any way. Only your email is stored in the
+          database. Your location and reading history remain on your phone and
+          are not shared with anyone.
+        </p>
+        <div class="grid">
+          <div>
+            <a href="#controller">Publisher</a
+            ><a href="#data-we-collect">Data Collected</a
+            ><a href="#how-we-use">How Your Data is Used</a>
+          <div><a href="#security">Security</a>
+          </div>
+          <div><a href="#contact">Contact Me</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="controller" class="card">
+        <h2>Publisher</h2>
+        <p>
+          <strong>Controller:</strong> The Khattam app is operated by the app
+          publisher. For privacy queries, contact me at
+          <a href="mailto:amashallahali@gmail.com">amashallahali@gmail.com</a>.
+        </p>
+      </section>
+
+      <section id="data-we-collect" class="card">
+        <h2>Data Collect</h2>
+        <ul>
+          <li>
+            <strong>Account data</strong> — email address you provide when
+            registering.
+          </li>
+        </ul>
+        <p class="muted">
+          <strong>NO</strong> precise location, passwords, contacts, or photos
+          are collected.
+        </p>
+      </section>
+
+      <section id="how-we-use" class="card">
+        <h2>How Your Data is Used</h2>
+        <ul>
+          <li>To help troubleshoot if user reaches out for help.</li>
+        </ul>
+      </section>
+
+      <section id="security" class="card">
+        <h2>Security</h2>
+        <p>Passwords are encrypted.</p>
+      </section>
+
+      <section id="contact" class="card">
+        <h2>Contact Me</h2>
+        <p>
+          Email:
+          <a href="mailto:amashallahali@gmail.com">amashallahali@gmail.com</a>
+        </p>
+        <p class="muted">
+          Please include your account email and App version to help me resolve
+          your request quickly.
+        </p>
+      </section>
+
+      <footer>© <span id="y"></span> Khattam. All rights reserved.</footer>
+    </div>
+    <script>
+      document.getElementById("y").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
